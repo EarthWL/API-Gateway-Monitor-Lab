@@ -11,5 +11,5 @@ route:
 receivers:
 - name: 'webhook'
   webhook_configs:
-  - url: 'https://script.google.com/macros/s/AKfycbx8pBkCJr5MyJFXoueBloaCjJDUXCa-OjZVbifFY7kdFnLkAljVfqxnh_6ZJdpcDHnQ/exec'
+  - url: 'Your endpoint webhook'
     send_resolved: true
