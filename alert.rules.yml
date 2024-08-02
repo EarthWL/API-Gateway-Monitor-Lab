@@ -1,0 +1,11 @@
+groups:
+- name: strapi_alerts
+  rules:
+  - alert: StrapiDown
+    expr: up{job="strapi"} == 0
+    for: 1m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Strapi is down"
+      description: "Cannot access Strapi API Service for more than 1 minute."
