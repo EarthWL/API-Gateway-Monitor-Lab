@@ -56,8 +56,8 @@ This repository contains a docker-compose setup for a full-fledged development a
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
+   gh repo clone EarthWL/API-Gateway-Monitor-Lab
+   cd API-Gateway-Monitor-Lab
    ```
 
 2. **Start the Docker Containers**
